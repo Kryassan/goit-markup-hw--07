@@ -1,0 +1,26 @@
+.button {
+  text-align: center;
+
+  &_order {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    padding: 0px;
+    margin: none;
+    border-radius: 4px;
+    background-color: $primary-color;
+
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: $third-color;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &_order:hover,
+  &_order:focus {
+    background-color: #188ce8;
+  }
+}

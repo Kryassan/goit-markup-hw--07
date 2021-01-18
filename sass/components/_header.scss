@@ -1,0 +1,23 @@
+.header {
+  width: auto;
+  height: 80px;
+  background: $third-color;
+  border-bottom: 1px solid #ececec;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+}
+
+.logo {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  border: 0px;
+  color: #000000;
+}

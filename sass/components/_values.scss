@@ -1,0 +1,54 @@
+.our-values {
+  width: auto;
+  margin: 94px auto;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+  height: 251px;
+  margin-bottom: 94px;
+
+  &_item {
+    display: inline-block;
+    width: 270px;
+    height: 251px;
+  }
+
+  &_item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &_title {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $second-color;
+  }
+
+  &_text {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $fourth-color;
+    margin-top: 10px;
+  }
+}
+
+.icon-box {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+
+  &_icon {
+    margin: 25px 100px;
+  }
+}

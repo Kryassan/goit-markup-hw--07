@@ -1,0 +1,31 @@
+.hero {
+  width: auto;
+  height: 600px;
+  text-align: center;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main/tagline/tagline_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tagline {
+  padding-top: 200px;
+  margin-bottom: 30px;
+
+  &_text {
+    display: inline-block;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $third-color;
+  }
+}

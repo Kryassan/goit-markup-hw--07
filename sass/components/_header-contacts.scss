@@ -1,0 +1,75 @@
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email {
+  display: block;
+  width: 161px;
+  margin-right: 30px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.email_link {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: $fourth-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    color: $primary-color;
+  }
+
+  &:hover .email_icon,
+  &:focus .email_icon {
+    fill: $primary-color;
+  }
+}
+
+.email_icon {
+  margin: 0px 10px 0px 0px;
+  fill: $fourth-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone {
+  width: 142px;
+  align-items: center;
+}
+
+.phone_link {
+  display: inline-block;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 142px;
+  color: $fourth-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $primary-color;
+  }
+
+  &:hover .phone_icon,
+  &:focus .phone_icon {
+    fill: $primary-color;
+  }
+}
+
+.phone_icon {
+  margin-right: 10px;
+  fill: $fourth-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
