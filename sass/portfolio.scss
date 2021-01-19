@@ -5,24 +5,17 @@
 
 // ==utils==
 @import "./utils/variables";
-@import "./utils/is-hidden";
-@import "./utils/visually-hidden";
 
 // ==components==
 @import "./components/header";
 @import "./components/logo";
 @import "./components/header-nav";
 @import "./components/header-contacts";
-@import "./components/main_hero";
-@import "./components/main_button-order";
-@import "./components/main_modal";
-@import "./components/main_modal-form";
-@import "./components/main_values";
-@import "./components/main_our-work";
-@import "./components/main_our-team";
-@import "./components/main_team_socials";
-@import "./components/main_clients";
+@import "./components/portfolio-filters";
+
 @import "./components/footer";
 @import "./components/footer-contacts";
 @import "./components/footer-socials";
 @import "./components/footer-subscription";
+@import "./components/portfolio-gallary";
+@import "./components/portfolio-product";

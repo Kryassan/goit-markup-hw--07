@@ -1,0 +1,23 @@
+.gallary {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 94px;
+
+  &_list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  &_item {
+    flex-basis: calc((100% / 3) - 36px);
+    margin: 30px 0px 0px 30px;
+    border: 1px solid #eeeeee;
+    width: 370px;
+    height: 404px;
+  }
+}

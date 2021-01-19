@@ -1,0 +1,9 @@
+.footer {
+  width: auto;
+  background: #2f303a;
+
+  &_menu {
+    display: flex;
+    justify-content: start;
+  }
+}
