@@ -304,6 +304,7 @@ a {
 
 .modal-order {
   position: fixed;
+  z-index: 3;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -313,7 +314,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-order .is-hidden {
+.modal-order.is-hidden .modal {
   -webkit-transform: translate(-50%, -50%) scale(0);
           transform: translate(-50%, -50%) scale(0);
 }
